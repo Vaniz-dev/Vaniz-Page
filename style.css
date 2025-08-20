@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Text:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    
+}
+
+body{
+    background-image: url(./assets/fundo.jpg);
+    background-position: center;
+    background-size: 1500px;
+    color:rgb(188, 255, 255);
+    font-family: "Mozilla Text", sans-serif;
+}
+header{
+    color: aliceblue;
+    padding: 2rem;
+    text-align: center;
+}
+main{
+    padding: 15rem;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 2;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    gap:2;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 25px;
+}
+footer{
+    color: rgb(52, 52, 52);
+    text-align: center;
+}
+fieldset{
+    background-color: rgba(0, 0, 0, 0.677);
+    padding: 2rem;
+    border: 0px;
+}
+a{
+    font-size: 50px;
+    color: aquamarine;
+}
+h2{
+    padding: 2rem;
+    text-align: center;
+}
+legend{
+    text-align: center;
+}
